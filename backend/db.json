@@ -1,0 +1,204 @@
+{
+  "Studentlist": [
+    {
+      "id": 1,
+      "name": "govinda",
+      "email": "user1@gmail.com",
+      "clas": "I MSc CS",
+      "roll": "12301",
+      "mobile_number": "0987654310",
+      "blood_group": "A+",
+      "city": "chennai"
+    },
+    {
+      "id": 2,
+      "name": "anita2",
+      "email": "user2@gmail.com",
+      "clas": "II MSc CS",
+      "roll": "12302",
+      "mobile_number": "0987654321",
+      "blood_group": "B+",
+      "city": "mumbai"
+    },
+    {
+      "id": 3,
+      "name": "raj3",
+      "email": "user3@gmail.com",
+      "clas": "I MSc CS",
+      "roll": "12303",
+      "mobile_number": "0987654332",
+      "blood_group": "O+",
+      "city": "delhi"
+    },
+    {
+      "id": 6,
+      "name": "meena6",
+      "email": "user6@gmail.com",
+      "clas": "II MSc CS",
+      "roll": "12306",
+      "mobile_number": "0987654365",
+      "blood_group": "O-",
+      "city": "chennai"
+    },
+    {
+      "id": 7,
+      "name": "kumar7",
+      "email": "user7@gmail.com",
+      "clas": "I MSc CS",
+      "roll": "12307",
+      "mobile_number": "0987654376",
+      "blood_group": "AB-",
+      "city": "mumbai"
+    },
+    {
+      "id": 11,
+      "name": "deepa11",
+      "email": "user11@gmail.com",
+      "clas": "I MSc CS",
+      "roll": "12311",
+      "mobile_number": "0987654311",
+      "blood_group": "O+",
+      "city": "chennai"
+    },
+    {
+      "id": 12,
+      "name": "ajay",
+      "email": "user12@gmail.com",
+      "clas": "II MSc CS",
+      "roll": "12312",
+      "mobile_number": "0987654322",
+      "blood_group": "B-",
+      "city": "mumbai"
+    },
+    {
+      "id": 13,
+      "name": "kavya13",
+      "email": "user13@gmail.com",
+      "clas": "I MSc CS",
+      "roll": "12313",
+      "mobile_number": "0987654333",
+      "blood_group": "AB+",
+      "city": "delhi"
+    },
+    {
+      "id": 14,
+      "name": "pavan14",
+      "email": "user14@gmail.com",
+      "clas": "II MSc CS",
+      "roll": "12314",
+      "mobile_number": "0987654344",
+      "blood_group": "O-",
+      "city": "kolkata"
+    },
+    {
+      "id": 15,
+      "name": "ravi15",
+      "email": "user15@gmail.com",
+      "clas": "I MSc CS",
+      "roll": "12315",
+      "mobile_number": "0987654355",
+      "blood_group": "B+",
+      "city": "bangalore"
+    },
+    {
+      "id": 16,
+      "name": "sita16",
+      "email": "user16@gmail.com",
+      "clas": "II MSc CS",
+      "roll": "12316",
+      "mobile_number": "0987654366",
+      "blood_group": "A+",
+      "city": "chennai"
+    },
+    {
+      "id": 17,
+      "name": "manoj17",
+      "email": "user17@gmail.com",
+      "clas": "I MSc CS",
+      "roll": "12317",
+      "mobile_number": "0987654377",
+      "blood_group": "B-",
+      "city": "mumbai"
+    },
+    {
+      "id": 18,
+      "name": "neha18",
+      "email": "user18@gmail.com",
+      "clas": "II MSc CS",
+      "roll": "12318",
+      "mobile_number": "0987654388",
+      "blood_group": "O+",
+      "city": "delhi"
+    },
+    {
+      "id": 19,
+      "name": "jaya19",
+      "email": "user19@gmail.com",
+      "clas": "I MSc CS",
+      "roll": "12319",
+      "mobile_number": "0987654399",
+      "blood_group": "A-",
+      "city": "kolkata"
+    },
+    {
+      "id": 20,
+      "name": "kiran20",
+      "email": "user20@gmail.com",
+      "clas": "II MSc CS",
+      "roll": "12320",
+      "mobile_number": "0987654310",
+      "blood_group": "B+",
+      "city": "bangalore"
+    },
+    {
+      "id": 21,
+      "name": "geeta21",
+      "email": "user21@gmail.com",
+      "clas": "I MSc CS",
+      "roll": "12321",
+      "mobile_number": "0987654321",
+      "blood_group": "AB-",
+      "city": "chennai"
+    },
+    {
+      "id": 22,
+      "name": "dinesh22",
+      "email": "user22@gmail.com",
+      "clas": "II MSc CS",
+      "roll": "12322",
+      "mobile_number": "0987654332",
+      "blood_group": "O+",
+      "city": "mumbai"
+    },
+    {
+      "id": 23,
+      "name": "vani23",
+      "email": "user23@gmail.com",
+      "clas": "I MSc CS",
+      "roll": "12323",
+      "mobile_number": "0987654343",
+      "blood_group": "B-",
+      "city": "delhi"
+    },
+    {
+      "id": 24,
+      "name": "sanju24",
+      "email": "user24@gmail.com",
+      "clas": "II MSc CS",
+      "roll": "12324",
+      "mobile_number": "0987654354",
+      "blood_group": "AB+",
+      "city": "kolkata"
+    },
+    {
+      "id": 26,
+      "name": "gfdsdddd",
+      "email": "kkgch@gmail.com",
+      "clas": "shdsakhg",
+      "roll": "65432145",
+      "mobile_number": "765432112345",
+      "blood_group": "543d",
+      "city": "hgfdsa"
+    }
+  ]
+}

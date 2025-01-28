@@ -1,0 +1,275 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+.filterRecord {
+   border: none;
+   padding: 9px;
+   background-color: aqua;
+   border-radius: 15px;
+   border: none;
+   outline: none;
+   box-shadow: none;
+   
+}
+#center-search:hover{
+  background-color:lightpink;
+  color:black;
+}
+.filter{
+  border: none;
+  display: flex;
+  justify-content: space-between;
+  background-color: aqua;
+  border-radius: 15px
+}
+#center-search{
+  border-radius: 15px;
+  background-color:lightgreen;
+  position: relative;
+  top: 4px;
+  right: 4px;
+  border: none;
+  padding: 8px;
+}
+#center-reset{
+  border-radius: 15px;
+  border: none;
+  padding: 9px;
+  background-color: aqua;
+}
+#center-reset:hover{
+  background-color:lightpink;
+  color:black;
+}
+.add-botten{
+  border-radius: 15px;
+  border: none;
+  padding: 9px;
+  background-color: aqua;
+  text-decoration: none;
+  color: black; 
+}
+.add-botten:hover{
+  background-color:lightpink;
+  color:black;
+}
+.mb-3{
+  display: flex;
+  justify-content: center;
+
+}
+#rights{
+  display: flex;
+  gap: 20px;
+}
+
+.card-title {
+  display: flex;
+  justify-content: space-around;
+}
+.card-title h2{
+  height: 50px;
+  width: 50px;
+  padding: 4px;
+  border-radius: 50%;
+  position: relative;
+  text-align: center;
+  background-color: red;
+}
+
+.sortRecords{
+  border: none;
+  padding: 9px;
+  background-color: aqua;
+  border-radius: 15px;
+  border: none;
+  outline: none; 
+  box-shadow: none;
+}
+.Pagination-center{
+  display: flex;
+  justify-content: center; 
+  align-items: center;       
+}
+.pagination li a{
+  color: black;
+  background-color: aqua;
+}
+.deleteData{
+  border: none;
+  padding: 9px;
+  background-color:rgb(226, 120, 107);
+  border-radius: 15px;
+  border: none;
+  outline: none;  
+  box-shadow: none;
+
+}
+
+.delete-button{
+  display: flex;
+  gap: 5px;
+
+}
+
+.editData{
+  border: none;
+  padding: 9px;
+  background-color:rgb(135, 226, 107);
+  border-radius: 15px;
+  text-decoration: none;
+  color: black;
+  border: none;
+  outline: none;  /* Removes the default focus outline */
+  box-shadow: none;
+}
+.editData:hover{
+  background-color:lightpink;
+  color:black;
+}
+.deleteData:hover{
+  background-color:lightpink;
+  color:black;
+}
+
+
+.btn-btn-primary{
+  border-radius: 15px;
+  background-color:lightseagreen;
+  position: relative;
+  top: 4px;
+  right: 4px;
+  border: none;
+  padding: 8px;
+}
+.btn-btn-primary:hover{
+  background-color:lightpink;
+  color:black;
+}
+
+
+@media(max-width:750px){
+  .container{
+      display: inline;
+  }
+  .mb-3{
+    display: flex;
+    justify-content: first baseline;
+    padding:2px;
+    margin: 0;
+    gap:0;
+    font-size: 10px;
+  }
+  .card-body{
+    font-size: 10px;
+  }
+  .deleteData{
+    padding: 4px;
+  
+  }
+  #rights{
+    display: flex;
+    gap: 10px;
+  }
+  
+  .delete-button{
+    display: flex;
+    gap: 2px;
+  
+  }
+  
+  .editData{
+    padding: 4px;
+    border-radius: 15px;
+    }
+    .card-title h2{
+      top:8px;
+      font-size: 20px;
+      height: 35px;
+      width: 35px;
+      padding: 5px;
+  }
+  .filterRecord {
+    padding: 4px; 
+ }
+ .h4{
+  font-size: 10px;
+ }
+  
+}
+
+@media(max-width:430px){
+  .container{
+      display: inline;
+  }
+  .mb-3{
+    display: flex;
+    justify-content: center;
+    padding:2px;
+    gap:0;
+  
+  }
+  #rights{
+    display: flex;
+    gap: 1px;
+  }
+  
+  .deleteData{
+    padding: 3px;
+  
+  }
+  
+  .delete-button{
+    display: flex;
+    gap: 1px;
+  
+  }
+  .filterRecord {
+    padding: 2px; 
+    max-width: 70px;
+  
+ }
+  
+  .editData{
+    padding: 3px;
+    }
+    .card-title h2{
+      top: 10px;
+      font-size: 15px;
+      height: 25px;
+      width: 25px;
+      padding: 5px;
+  }
+/* Make table scrollable */
+.table-responsive {
+  overflow-x: auto;
+}
+
+/* Reduce padding and font size in table cells */
+.table th,
+.table td {
+  padding: 8px;
+  font-size: 12px;
+}
+
+/* Stack action buttons vertically */
+.delete-button {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+/* Adjust button sizes */
+.deleteData,
+.editData {
+  font-size: 12px;
+  padding: 5px;
+  width: 100%;
+  text-align: center;
+}
+.h4{
+  font-size: 8px;
+ }
+}
+

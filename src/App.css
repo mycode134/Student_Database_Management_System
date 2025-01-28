@@ -1,0 +1,138 @@
+/* Global Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* General Body Styles */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(to right, rgb(255,165,0) 50%, rgb(255,0,0) 50%);
+  color: #333;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+/* Butterfly Button Design */
+.butterfly-btn {
+  background: linear-gradient(45deg, #00bcd4, #8bc34a, #f8bbd0, #ffeb3b);
+  color: white;
+  padding: 12px 25px;
+  border: none;
+  border-radius: 50px;
+  font-size: 18px;
+  font-weight: bold;
+  text-transform: uppercase;
+  cursor: pointer;
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease-in-out;
+}
+
+.butterfly-btn:hover {
+  background: linear-gradient(45deg, #ffeb3b, #8bc34a, #f8bbd0, #00bcd4);
+  transform: scale(1.05);
+  box-shadow: 0px 10px 25px rgba(0, 0, 0, 0.15);
+}
+
+
+
+
+
+/* Butterfly Card Design */
+.butterfly-card {
+  background: #ffffff;
+  padding: 40px 60px;
+  border-radius: 25px;
+  box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.15);
+  width: 100%;
+  max-width: 500px;
+  text-align: center;
+}
+
+.card-titles h2 {
+  font-size: 36px;
+  color: #8bc34a;
+  margin-bottom: 20px;
+}
+
+/* Butterfly Table Design */
+.butterfly-table {
+  width: 100%;
+  border-spacing: 15px;
+}
+
+.butterfly-table td {
+  padding: 12px;
+  text-align: left;
+}
+
+.butterfly-table input {
+  width: 100%;
+  padding: 12px;
+  font-size: 16px;
+  border: 2px solid #ddd;
+  border-radius: 8px;
+  transition: border-color 0.3s;
+}
+
+.butterfly-table input:focus {
+  border-color: #8bc34a;
+  outline: none;
+}
+
+/* Butterfly Text Design */
+.butterfly-text {
+  font-size: 18px;
+  color: #333;
+  margin-top: 20px;
+  font-weight: 400;
+}
+
+/* Responsive Design for Mobile */
+@media (max-width: 750px) {
+  .butterfly-card {
+    padding: 30px 40px;
+  }
+
+  .butterfly-btn {
+    width: 100%;
+    font-size: 20px;
+    padding: 15px;
+  }
+
+  .butterfly-table td input {
+    padding: 10px;
+    font-size: 14px;
+  }
+
+  .butterfly-text {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 430px) {
+  .butterfly-card {
+    padding: 20px 30px;
+  }
+
+  .butterfly-btn {
+    padding: 12px;
+    font-size: 18px;
+  }
+
+  .butterfly-table td input {
+    padding: 8px;
+    font-size: 12px;
+  }
+
+  .butterfly-text {
+    font-size: 14px;
+  }
+}
+
+
+
